@@ -5,7 +5,6 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Login from './components/Login';
-import Logout from './components/Logout';
 
 function App() {
 
@@ -18,7 +17,6 @@ function App() {
           </Typography>
         </Toolbar>
       </AppBar>
-       <Logout />
       <Login />
     </div>
   );
